@@ -31,6 +31,7 @@ package_install(){
 }
 
 self_update(){
+    cd $working_dir
     print_line "Self updating..."
     git pull
 }
